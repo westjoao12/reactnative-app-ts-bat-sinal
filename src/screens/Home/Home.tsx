@@ -6,7 +6,7 @@ import {ImgLogo} from '../../components/ImgLogo/ImgLogo'
 
 export const Home = () =>{
     return(
-        <View style={styles.container}>
+        <View style={styles.container}>      
             <ImgLogo />
             <ButtonBt texto={'activate bat signal'}/>        
             <StatusBar style="auto" />

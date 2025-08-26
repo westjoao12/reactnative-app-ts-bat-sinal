@@ -7,6 +7,8 @@ export const styles = StyleSheet.create({
         alignItems: 'center',
         justifyContent: 'flex-start',
         marginTop: 50,
+
+        
     },
     labelTitle: {
         fontSize: 20,

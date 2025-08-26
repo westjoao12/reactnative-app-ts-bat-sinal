@@ -1,5 +1,6 @@
 import { Pressable , Text } from "react-native";
 import {styles} from './ButtonBtStyles'
+import { useState } from "react";
 
 interface ButtonBtProps {
     texto: string
