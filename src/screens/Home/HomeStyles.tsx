@@ -6,7 +6,10 @@ export const styles = StyleSheet.create({
         backgroundColor: '#fff',
         alignItems: 'center',
         justifyContent: 'center',
+
+        /*
         borderColor: '#c917c9ff',
         borderWidth: 4
+        */
   },
 });

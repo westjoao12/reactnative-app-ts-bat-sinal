@@ -2,22 +2,32 @@ import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
     container:{
-        borderColor: '#f70505ff',
-        borderWidth: 2,
-        width: 300,
-        height: 300,
+        width: 250,
+        height:250,
 
         
         justifyContent: 'center',
         alignItems: 'center',
+        
+        /* 
+        borderColor: '#f70505ff',
+        borderWidth: 2,
+        */
+
+        marginTop: -70,
+        marginBottom: 100,
     },
     logo: {
+        
+        /*
         borderColor: '#1916cfff',
         borderWidth: 2,
+        */
+        
 
-        resizeMode: "center",
+        resizeMode: 'contain',
 
-        width: 225,
-        height:225
+        width: 240,
+        height:240
     },
 })

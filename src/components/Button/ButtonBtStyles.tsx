@@ -9,8 +9,10 @@ export const styles = StyleSheet.create({
         textAlign: 'center',
         elevation: 3,
 
+        /*
         borderColor: '#e90909ff',
         borderWidth: 2
+        */
 
     },
     txt: {
@@ -22,7 +24,9 @@ export const styles = StyleSheet.create({
         textAlign: 'center',
         textAlignVertical: 'center',
         
+        /*
         borderColor: '#e9e509ff',
         borderWidth: 2,
+        */
     }
 });
