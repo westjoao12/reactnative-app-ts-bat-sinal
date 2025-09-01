@@ -4,7 +4,7 @@ import {Formulario} from '../screens/Formulario/Formulario';
 
 const {Screen, Navigator} = createStackNavigator();
 
-export const Routes = () => {
+export const StackRoutes = () => {
     return (
 
         <Navigator>
