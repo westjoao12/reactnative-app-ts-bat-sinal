@@ -5,7 +5,12 @@ import {styles} from './FormularioStyles';
 import {ButtonBt} from '../../components/Button/ButtonBt'
 const imgLogo = require('../../../assets/batlogo.png')
 
-export const Formulario = () => {
+export const Formulario = ({navigation}: any) => {
+    
+    const goTo = ()=>{
+        navigation.navigate('home');
+    }
+
     return(
         <View style={styles.container}>
             <Image source={imgLogo}  style={styles.img}/>
@@ -22,7 +27,7 @@ export const Formulario = () => {
 
             <Text style={styles.labelTitleSecond}>This is your hint</Text>
 
-            <ButtonBt texto={'Enviar'} />
+            <ButtonBt texto={'Enviar'} goTo={goTo} />
         </View>
     )
 }
